@@ -1,0 +1,22 @@
+.table-view{
+  width: auto;
+  overflow-x: scroll;
+  height: 100vh;
+ padding: 5rem 1rem;
+ background-color: aqua;
+}
+
+.my-custom-table {
+  border: 1px solid #e8e8e8; /* Set the border color and width */
+}
+
+/* Apply border to table header cells */
+.my-custom-table thead th {
+  border: 1px solid #e8e8e8; /* Set the border color and width */
+  background:yellow;
+}
+
+/* Apply border to table body cells */
+.my-custom-table tbody td {
+  border: 1px solid #e8e8e8; /* Set the border color and width */
+}
